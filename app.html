@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orthoc Hospital</title>
+    <style>
+        /* Basic styling for demonstration */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        nav {
+            background-color: #f2f2f2;
+            text-align: center;
+            padding: 10px;
+        }
+        nav a {
+            text-decoration: none;
+            padding: 10px;
+            color: #333;
+        }
+        main {
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .image-container {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Orthoc Hospital</h1>
+    </header>
+
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#services">Services</a>
+        <a href="#doctors">Doctors</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <main>
+        <section id="about">
+            <h2>About Orthoc Hospital</h2>
+            <div class="image-container">
+                <img src="../images/about.png" alt="Orthoc Hospital Building" style="max-width: 90%; height: auto;">
+            </div>
+            <p>Orthoc Hospital is dedicated to providing high-quality healthcare services to our community. We specialize in orthopedic care, offering comprehensive treatment options for bone and joint disorders.
+            Our state-of-the-art facilities are equipped with the latest technology, ensuring accurate diagnosis and effective treatment. At Orthoc Hospital, we prioritize patient care and strive to enhance the quality of life for all our patients.</p>
+        </section>
+
+        <section id="services">
+            <h2>Our Services</h2>
+            <ul>
+                <li>Orthopedic Surgery</li>
+                <li>Joint Replacement</li>
+                <li>Sports Medicine</li>
+                <li>Physical Therapy</li>
+                <li>Orthopedic Rehabilitation</li>
+            </ul>
+        </section>
+
+        <section id="doctors">
+            <h2>Meet Our Doctors</h2>
+            <div class="image-container">
+                <img src="../images/d1.jpg" alt="Doctor Team">
+                <img src="../images/d2.jpg" alt="Doctor Team">
+                <img src="../images/d3.jpg" alt="Doctor Team">
+            </div>
+            <ul>
+                <li>Dr. John Doe - Orthopedic Surgeon</li>
+                <li>Dr. Jane Smith - Sports Medicine Specialist</li>
+                <li>Dr. Michael Lee - Orthopedic Rehabilitation Specialist</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Address: 456 Orthoc Street, City, Country</p>
+            <p>Phone: +1234567890</p>
+            <p>Email: info@orthochospital.com</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Orthoc Hospital. All rights reserved.</p>
+    </footer>
+
+    <script type="text/javascript">
+        (function(d, m){
+            var kommunicateSettings = 
+                {"appId":"39e5ffdf0435510177ef62653dcf548af","popupWidget":true,"automaticChatOpenOnNavigation":true};
+            var s = document.createElement("script"); s.type = "text/javascript"; s.async = true;
+            s.src = "https://widget.kommunicate.io/v2/kommunicate.app";
+            var h = document.getElementsByTagName("head")[0]; h.appendChild(s);
+            window.kommunicate = m; m._globals = kommunicateSettings;
+        })(document, window.kommunicate || {});
+    </script>
+    <!-- NOTE: Use web server to view HTML files as real-time update will not work if you directly open the HTML file in the browser. -->
+</body>
+</html>
